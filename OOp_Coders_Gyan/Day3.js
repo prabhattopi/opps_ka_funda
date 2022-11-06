@@ -2,13 +2,14 @@
 //Synthetic sugar of constructor object
 //vairable is property
 //func are methods
-//constructor is special method in class
+
 // hoisting matters in class(we cannot initialize before creating class)
 class BankAccount {
   customerName;
   accountNumber;
   balance = 0;
 
+  //constructor is special method in class
   constructor(customerName, balance = 0) {
     this.customerName = customerName;
     this.accountNumber = Date.now();
