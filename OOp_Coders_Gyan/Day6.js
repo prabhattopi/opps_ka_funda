@@ -32,7 +32,7 @@ class User {
   //     console.log(this.cache)
   //    }
   //   static hasInCache(){
-  //     //ab this chalega kyuki static se static chalega
+  //     //ab this chalega kyuki static se static chalega✅✅✅
   //     this.chekcCache()
 
   //   }
